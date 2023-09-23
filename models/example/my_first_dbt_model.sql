@@ -15,7 +15,7 @@ with source_data as (
     union all
     select null as id
     union all 
-    select 'check' as id
+    select 5 as id
 
 )
 
